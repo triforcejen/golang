@@ -19,5 +19,7 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
-	fmt.Println(Sqrt(4))
+	for i := 0; i <10; i++ {
+		fmt.Println(Sqrt(float64(i)))
+	}
 }
